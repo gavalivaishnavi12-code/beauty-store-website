@@ -1,3 +1,6 @@
+Live Demo:
+https://gavalivaishnavi12-code.github.io/beauty-store-website/
+
 # beauty-store-website
 Responsive Beauty Store website built using HTML, CSS, and Bootstrap.
 
