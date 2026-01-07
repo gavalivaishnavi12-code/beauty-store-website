@@ -1,0 +1,225 @@
+/* HERO SECTION */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+.hero-section {
+  height: 100vh;
+  padding-top: 80px;
+  background-image: url("https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+body {
+  background-color: #fff;
+}
+
+/* NEW ARRIVALS */
+.new-arrivals {
+  position: relative;
+}
+
+/* CARDS */
+.product-card {
+  border: none;
+  overflow: hidden;
+}
+.product-card img {
+  height: 420px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* BEST SELLING ITEMS */
+.best-sellings {
+  position: relative;
+}
+
+/* BANNER1 */
+.category-section {
+  margin: 80px 0;
+}
+.category-box {
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Images */
+.left-box {
+  background-image: url("https://demo.templatesjungle.com/care/images/cat-large-item1.jpg");
+}
+.right-box {
+  background-image: url("https://demo.templatesjungle.com/care/images/cat-large-item2.jpg");
+}
+.category-content {
+  border: 2px solid #fff;
+  padding: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.category-content h2 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+.small-text {
+  font-size: 12px;
+  letter-spacing: 3px;
+  opacity: 0.9;
+}
+body {
+    font-family: 'Georgia', serif;
+}
+
+/* BANNER2 */
+.section {
+    background: linear-gradient(120deg, #e9d6df, #f6f1f4);
+    padding: 80px 0;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.description {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.lipstick-img {
+
+    max-width: 300px;
+    margin-top: 40px;
+}
+.offer-text {
+    position: absolute;
+    top: 10%;
+   left: 5%;
+   font-size: 22px;
+   font-weight: bold;
+   color: white;
+   background: #dd9faa;
+   padding: 15px;
+   text-align: center;
+}
+.offer-text span {
+  font-size: 32px;
+}
+
+/* FOOTER */
+.footer-section {
+  background-color: #f7f5f3;
+  padding: 60px 0 20px;
+  font-family: 'Georgia', serif;
+}
+.footer-title {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons i {
+  font-size: 18px;
+  margin-right: 12px;
+  color: #333;
+  cursor: pointer;
+}
+hr {
+  margin: 40px 0 20px;
+}
+.footer-bottom {
+  font-size: 13px;
+  color: #777;
+}
+
+/* SIGN IN */
+/* Page background */
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  display: flex;
+  align-items: center;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+}
+
+/* Login heading */
+.pink {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Pink button */
+.btn-pink {
+  background-color: #ffffff;
+  color: #050000;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-pink:hover {
+  background-color: #000000;
+  color: #000000;
+}
+
+/* Register link */
+p a {
+  color: #e69a9a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
